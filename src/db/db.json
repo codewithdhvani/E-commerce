@@ -1,0 +1,141 @@
+{
+    "categories":[
+        {"id":1, "title": "Fridges"},
+        {"id":2, "title": "Washing Machines"},
+        {"id":3, "title": "Ovens"}
+    ],
+    "products":[
+
+        {
+            "id":1, 
+            "catId":1, 
+            "title": "Beko White Fridge Freezer",
+            "productCode": "BFR123",
+            "image": "Beko White Fridge Freezer.jpeg",
+            "price": 499.99,
+            "sku": "BFR123",
+            "description": "A spacious and energy-efficient fridge freezer with a sleek white finish.",
+            "specs": {"dimensions": "60x60x180 cm", "capacity": "300L", "energyRating": "A++"},
+            "features": ["Frost Free", "LED Lighting", "Adjustable Shelves"],
+            "stock": 20
+
+        },
+        {
+            "id":2,
+            "catId":1,
+            "title": "Samsung Stainless Steel Fridge",
+            "productCode": "SSF456",
+            "image": "Samsung Stainless Steel Fridge.jpeg",
+            "price": 799.99,
+            "sku": "SSF456",
+            "description": "A modern stainless steel fridge with smart features and ample storage.",
+            "specs": {"dimensions": "70x70x180 cm", "capacity": "350L", "energyRating": "A+++"},
+            "features": ["Smart Cooling", "Touch Control", "Water Dispenser"],
+            "stock": 15
+        },
+        {
+            "id":3,
+            "catId":2,
+            "title": "LG Front Load Washing Machine",
+            "productCode": "LGW789",
+            "image": "LG Front Load Washing Machine.jpeg",
+            "price": 599.99,
+            "sku": "LGW789",
+            "description": "An efficient front load washing machine with smart features.",
+            "specs": {"dimensions": "60x60x85 cm", "capacity": "8kg", "energyRating": "A+++"},
+            "features": ["Smart Diagnosis", "TurboWash", "Steam Cleaning"],
+            "stock": 10
+        },
+        {
+            "id":4,
+            "catId":3,
+            "title": "Bosch Built-in Oven",
+            "productCode": "BBO101",
+            "image": "Bosch Built-in Oven.jpg",
+            "price": 699.99,
+            "sku": "BBO101",
+            "description": "A built-in oven with multiple cooking modes and a sleek design.",
+            "specs": {"dimensions": "60x60x60 cm", "capacity": "70L", "energyRating": "A"},
+            "features": ["Multi-function", "Self-cleaning", "Touch Control"],
+            "stock": 5
+        },
+        {
+            "id":5,
+            "catId":3,
+            "title": "Whirlpool Convection Oven",
+            "productCode": "WCO202",
+            "image": "Whirlpool Convection Oven.jpeg",
+            "price": 799.99,
+            "sku": "WCO202",
+            "description": "A convection oven with advanced cooking technology and a stylish design.",
+            "specs": {"dimensions": "60x60x60 cm", "capacity": "75L", "energyRating": "A++"},
+            "features": ["Convection Cooking", "Digital Display", "Self-cleaning"],
+            "stock": 8
+        },
+        {
+            "id":6,
+            "catId":2,
+            "title": "Samsung Top Load Washing Machine",
+            "productCode": "STW303",
+            "image": "Samsung Top Load Washing Machine.jpeg",
+            "price": 499.99,
+            "sku": "STW303",
+            "description": "A top load washing machine with a large capacity and smart features.",
+            "specs": {"dimensions": "60x60x100 cm", "capacity": "9kg", "energyRating": "A++"},
+            "features": ["Smart Control", "Quick Wash", "Child Lock"],
+            "stock": 12
+        },
+        {
+            "id":7,
+            "catId":1,
+            "title": "Whirlpool Side-by-Side Fridge",
+            "productCode": "WSF404",
+            "image": "Whirlpool Side-by-Side Fridge.jpeg",
+            "price": 1099.99,
+            "sku": "WSF404",
+            "description": "A spacious side-by-side fridge with advanced cooling technology.",
+            "specs": {"dimensions": "90x70x180 cm", "capacity": "500L", "energyRating": "A+++"},
+            "features": ["Ice Maker", "Water Dispenser", "Smart Cooling"],
+            "stock": 7
+        },
+        {
+            "id":8,
+            "catId":2,
+            "title": "Bosch Top Load Washing Machine",
+            "productCode": "BTW505",
+            "image": "Bosch Top Load Washing Machine.jpg",
+            "price": 649.99,
+            "sku": "BTW505",
+            "description": "A top load washing machine with a large capacity and energy-efficient features.",
+            "specs": {"dimensions": "60x60x100 cm", "capacity": "10kg", "energyRating": "A+++"},
+            "features": ["EcoSilence Drive", "ActiveWater", "Child Lock"],
+            "stock": 6
+        },
+        {
+            "id":9,
+            "catId":3,
+            "title": "Electrolux Built-in Oven",
+            "productCode": "EBO606",
+            "image": "Electrolux Built-in Oven.jpeg",
+            "price": 799.99,
+            "sku": "EBO606",
+            "description": "A built-in oven with advanced cooking features and a sleek design.",
+            "specs": {"dimensions": "60x60x60 cm", "capacity": "70L", "energyRating": "A++"},
+            "features": ["Multi-function", "Touch Control", "Self-cleaning"],
+            "stock": 4
+        },
+        {
+            "id":10,
+            "catId":1,
+            "title": "LG French Door Fridge",
+            "productCode": "LFD707",
+            "image": "LG French Door Fridge.jpeg",
+            "price": 1299.99,
+            "sku": "LFD707",
+            "description": "A stylish French door fridge with smart features and ample storage.",
+            "specs": {"dimensions": "90x70x180 cm", "capacity": "600L", "energyRating": "A+++"},
+            "features": ["Smart Cooling", "Ice Maker", "Water Dispenser"],
+            "stock": 3
+        }
+    ]
+}
